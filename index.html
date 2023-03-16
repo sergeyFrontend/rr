@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wing Tea</title>
+  <link rel="stylesheet" href="src/css/normalize.css" />
+  <link rel="stylesheet" href="src/libs/swiper.css" />
+  <link rel="stylesheet" href="src/css/styles.css" />
+  <link rel="stylesheet" href="src/css/media.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <!-- header часть навигации -->
+      <div class="header-top__inner">
+        <div class="header__top-wrapper">
+          <nav class="header__menu">
+            <div class="menu__btn">
+              <span class="menu__btn-line menu__btn-line--1"></span>
+              <span class="menu__btn-line menu__btn-line--2"></span>
+              <span class="menu__btn-line menu__btn-line--3"></span>
+              <span class="menu__btn-line menu__btn-line--4"></span>
+            </div>
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="#" class="header__menu-link"> Наш чай </a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__menu-link"> О нас </a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__menu-link"> Магазин </a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__menu-link"> Блог </a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__menu-link"> Контакты </a>
+              </li>
+            </ul>
+          </nav>
+
+          <h2 class="header__subtitle">Wing tea</h2>
+          <div class="header-info">
+            <a href="#" class="header-info__item">
+              <img class="header-info__img" src="src/img/svg/user.svg" alt="user" />
+              Login
+            </a>
+            <a href="#" class="header-info__item">
+              <img class="header-info__img" src="src/img/svg/cart.svg" alt="cart" />
+              (0)
+            </a>
+            <a href="#" class="header-info__item">
+              <img class="header-info__img" src="src/img/svg/search.svg" alt="search" />
+              Поиск
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- нижняя часть header -->
+      <div class="header-content__inner">
+        <div class="heaedr__content-wrapper">
+          <h2 class="header__title">
+            Сделайте свое время лучше
+            <br />
+            <span>С Чашкой Ароматного Чая</span>
+          </h2>
+          <a href="#" class="header__link btn"> Купить сейчас </a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!--  -->
+  <main class="main">
+    <section class="slider-section p-140">
+      <div class="container">
+        <h2 class="slider__title title">Что в тренде</h2>
+        <p class="slider__descr">Чай, который в последнее время в тренде.</p>
+
+        <div class="swiper slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/1.png" alt="flower" />
+              <p class="slider__item-descr">Roselle tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/2.png" alt="flower" />
+              <p class="slider__item-descr">Apple flower tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/3.png" alt="flower" />
+              <p class="slider__item-descr">Purple rose tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/4.png" alt="flower" />
+              <p class="slider__item-descr">Butterfly pea tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/1.png" alt="flower" />
+              <p class="slider__item-descr">Roselle tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/2.png" alt="flower" />
+              <p class="slider__item-descr">Apple flower tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/3.png" alt="flower" />
+              <p class="slider__item-descr">Purple rose tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/slider-default/4.png" alt="flower" />
+              <p class="slider__item-descr">Butterfly pea tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider__products">
+          <button class="btn slider__btn">Все товары</button>
+        </div>
+      </div>
+    </section>
+    <section class="photos">
+      <div class="photos__items">
+        <div class="photos__item">
+          <img class="photos__item-img" src="src/img/photos/1.jpg" alt="photo flower" />
+          <div class="photos-text">
+            <h3 class="photos-text__caption">Organic Herbal</h3>
+            <a class="photos-text__link" href="#">купить сейчас</a>
+          </div>
+        </div>
+        <div class="photos__item">
+          <img class="photos__item-img" src="src/img/photos/2.jpg" alt="photo flower" />
+          <div class="photos-text">
+            <h3 class="photos-text__caption">Organic Herbal</h3>
+            <a class="photos-text__link" href="#">купить сейчас</a>
+          </div>
+        </div>
+        <div class="photos__item">
+          <img class="photos__item-img" src="src/img/photos/3.jpg" alt="photo flower" />
+          <div class="photos-text">
+            <h3 class="photos-text__caption">Organic Herbal</h3>
+            <a class="photos-text__link" href="#">купить сейчас</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews p-140">
+      <div class="container">
+        <h2 class="reviews__title title">Что говорят наши клиенты</h2>
+        <div class="reviews__inner">
+          <div class="reviews__slider">
+            <div class="swiper-wrapper reviews-wrapper">
+              <div class="reviews__slider-item swiper-slide">
+                <p class="reviews__slides-text">
+                  “Suspen dise tempus oncu enim pellen tesque este pretium in
+                  neque, elit morbi sagittis lorem habi mattis. A pellen
+                  tesque pretium feugiat vel morbi sagittis lorem habi tasse
+                  cursus.”
+                </p>
+                <img class="reviews__slider-img" src="src/img/svg/Stars.svg" alt="stats" />
+                <small class="reviews__slider-author">DR. Robinson hart</small>
+              </div>
+              <div class="reviews__slider-item swiper-slide">
+                <p class="reviews__slides-text">
+                  “Suspen dise tempus oncu enim pellen tesque este pretium in
+                  neque, elit morbi sagittis lorem habi mattis. A pellen
+                  tesque pretium feugiat vel morbi sagittis lorem habi tasse
+                  cursus.”
+                </p>
+                <img class="reviews__slider-img" src="src/img/svg/Stars.svg" alt="stats" />
+                <small class="reviews__slider-author">DR. Robinson hart</small>
+              </div>
+              <div class="reviews__slider-item swiper-slide">
+                <p class="reviews__slides-text">
+                  “Suspen dise tempus oncu enim pellen tesque este pretium in
+                  neque, elit morbi sagittis lorem habi mattis. A pellen
+                  tesque pretium feugiat vel morbi sagittis lorem habi tasse
+                  cursus.”
+                </p>
+                <img class="reviews__slider-img" src="src/img/svg/Stars.svg" alt="stats" />
+                <small class="reviews__slider-author">DR. Robinson hart</small>
+              </div>
+            </div>
+            <div class="reviews-button-prev">
+              <img src="src/img/svg/reviews-arrow-left.svg" alt="arrow" />
+            </div>
+            <div class="reviews-button-next">
+              <img src="src/img/svg/reviews-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <a data-fslightbox class="portfolio__video-link" href="https://www.youtube.com/watch?v=wq-JBaRUuus">
+        <img src="src/img/svg/play-button.svg" alt="play video" />
+      </a>
+    </section>
+    <section class="slider-section p-140">
+      <div class="container">
+        <h2 class="slider__title title">Что в тренде</h2>
+        <p class="slider__descr">Чай, который в последнее время в тренде.</p>
+
+        <div class="swiper slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/1.png" alt="flower" />
+              <p class="slider__item-descr">Rose petal tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/2.png" alt="flower" />
+              <p class="slider__item-descr">Mix rosemela tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/3.png" alt="flower" />
+              <p class="slider__item-descr">flower tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/4.png" alt="flower" />
+              <p class="slider__item-descr">Spicy tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/1.png" alt="flower" />
+              <p class="slider__item-descr">Rose petal tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/2.png" alt="flower" />
+              <p class="slider__item-descr">Mix rosemela tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/3.png" alt="flower" />
+              <p class="slider__item-descr">flower tea</p>
+              <span class="slider__item-price">$12.00</span>
+            </div>
+            <div class="slider__item swiper-slide">
+              <img src="src/img/best-slider/4.png" alt="flower" />
+              <p class="slider__item-descr">Spicy tea</p>
+              <span class="slider__item-price">$14.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider__products">
+          <button class="btn slider__btn">Все товары</button>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <h2 class="blog__title title">Читайте наши чайные блоги</h2>
+      <p class="blog__descr">
+        Подпишитесь на наши чайные блоги, чтобы получать обновления и узнавать
+        о тенденциях.
+      </p>
+      <a href="#" class="blog__link btn">Read blog posts</a>
+    </section>
+    <section class="privilege p-140">
+      <div class="container">
+        <div class="privilege__items">
+          <div class="privilege__item">
+            <img src="src/img/svg/car1.svg" alt="car" />
+            <p class="privilege__item-descr">
+              Доставка по городу в течение 3 дней
+            </p>
+          </div>
+          <div class="privilege__item">
+            <img src="src/img/svg/coffee.svg" alt="coffee" />
+            <p class="privilege__item-descr">
+              Бесплатные образцы с каждым заказом
+            </p>
+          </div>
+          <div class="privilege__item">
+            <img src="src/img/svg/dolly-flatbed.svg" alt="dolly-flatbed" />
+            <p class="privilege__item-descr">
+              Бесплатная доставка при заказе свыше 600$
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="instagram-catalog p-140">
+      <div class="container">
+        <h2 class="catalog__title title">Покупайте в нашем Instagram</h2>
+        <div class="catalog__items">
+          <div class="catalog__item">
+            <img src="src/img/store/1.jpg" alt="produce" />
+            <a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+          <div class="catalog__item">
+            <img src="src/img/store/2.jpg" alt="produce" />
+            <a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+          <div class="catalog__item">
+            <img src="src/img/store/3.jpg" alt="produce" />
+            <a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+          <div class="catalog__item">
+            <img src="src/img/store/4.jpg" alt="produce" />
+            <a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+          <div class="catalog__item">
+            <img src="src/img/store/5.jpg" alt="produce" /><a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+          <div class="catalog__item">
+            <img src="src/img/store/6.jpg" alt="produce" /><a href="#" class="catalog__item-img">
+              <img src="src/img/svg/instagram.svg" alt="instagram link" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--  -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-top__inner">
+          <div class="footer-top__items">
+            <div class="footer-top__item">
+              <h2 class="footer__title title">Знаете наш чай</h2>
+              <p class="footer__top-descr">
+                Мы являемся лучшим поставщиком чая в городе. Наш главный мотив
+                - сделать так, чтобы вы, красивые люди, каждый раз оставались
+                в форме и здоровы.
+              </p>
+              <div class="footer-input">
+                <input class="footer__item-input" type="text" placeholder="Оставьте ваш Email " />
+                <img src="src/img/svg/telegram-plane.svg" alt="telegram icon" />
+              </div>
+            </div>
+            <div class="footer-top__item">
+              <h3 class="footer__item-title">Ссылки</h3>
+              <ul class="footer__item-list">
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Наш чай</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">О нас</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Магазин</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Блог</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__item">
+              <h3 class="footer__item-title">Помошь</h3>
+              <ul class="footer__item-list">
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Часто задаваемые вопросы</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Политика магазина</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">доставка и возвраты</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Платежи</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-top__item">
+              <h3 class="footer__item-title">Мессенджеры</h3>
+              <ul class="footer__item-list">
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Facebook</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Instagram</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Pinterest</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Twitter</a>
+                </li>
+                <li class="footer__item-item">
+                  <a class="footer__item-link" href="#">Youtube</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!--  -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom__inner">
+          <small>©2022 by DEREK.</small>
+
+          <a href="#" class="footer__bottom-link">
+            <img src="src/img/svg/arrow-above.svg" alt="arrov" />
+            Вверх</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  -->
+  <script src="src/libs/fslightbox.js"></script>
+  <script src="src/libs/swiper.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
