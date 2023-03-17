@@ -40,7 +40,9 @@
   --color-orange: #3e3d3c;
   --color-grey: #87a9bc;
 }
-
+html{
+  overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
   font-family: "Jost-Regular", sans-serif;
