@@ -234,4 +234,9 @@
   .catalog__item img {
     width: 100%;
   }
+
+  .blog__descr {
+    text-align: center;
+    font-size: 13px;
+  }
 }
